@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lionic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container flex header-container">
             <a href="#" class="header-logo">
                 <img src="img/VectorLogo.svg" class="header-logo" alt="logo">
                 <nav class="header-nav">
-                    <ul class="header-list">
+                    <ul class="list-reset header-list flex">
                         <li class="header-list-item">
                             <a href="#hero" class="header-link">
                                 Home
@@ -47,7 +50,7 @@
                     </ul>
                 </nav>
 
-                <button class="btn header-btn">
+                <button class="btn-reset btn header-btn">
                     Free Trial
                 </button>
 
@@ -57,9 +60,9 @@
 
 
     <main class="main">
-        <section id="hero" class="hero">
+        <section id="hero" class="hero section-offset flex">
             <div class="container">
-                <div class="hero-content">
+                <div class="hero-content flex">
                     <h1 class="hero-title">
                         This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
                     </h1>
@@ -67,7 +70,7 @@
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                         tincidunt ut&nbsp;laoreet dolore.
                     </p>
-                    <button class="btn hero-btn">
+                    <button class="btn-reset hero-btn btn">
                         FREE 30&nbsp;DAY TRIAL
                     </button>
                     <span class="hero-secure">SSL secured connection</span>
@@ -76,14 +79,14 @@
 
         </section>
 
-        <section id="services" class="services">
+        <section id="services" class="services section-offset">
             <div class="container">
                 <h2 class="section-title services-title">Services</h2>
                 <p class="section-descr services-descr">Lionic guides you on&nbsp;making decisions for all aspects
                     of&nbsp;your end-of-life plans.</p>
 
-                <ul class="services-items">
-                    <li class="services-item">
+                <ul class="list-reset services-items flex">
+                    <li class="services-item flex">
                         <svg class="service-item-icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -96,7 +99,7 @@
                         </p>
 
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <svg class="service-item-icon" width="86" height="64" viewBox="0 0 86 64" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -109,7 +112,7 @@
                         </p>
 
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <svg class="service-item-icon" width="64" height="64" viewBox="0 0 64 64" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -122,7 +125,7 @@
                         </p>
 
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <svg class="service-item-icon" width="65" height="65" viewBox="0 0 65 65" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -139,10 +142,10 @@
             </div>
         </section>
 
-        <section id="articles" class="articles">
+        <section id="articles" class="articles section-offset">
             <div class="container">
                 <h2 class="section-title articles-title">Articles</h2>
-                <ul class="articles-list">
+                <ul class="list-reset articles-list">
                     <li class="articles-item">
                         <article class="blog-preview">
                             <img src="img/blog-1.jpg" alt="blog-img1" class="blog-preview-image">
@@ -195,14 +198,16 @@
         </section>
 
 
-        <section id="clients" class="clients">
-            <h2 class="section-title clients-title">Clients</h2>
-            <ul class="clients-list">
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae recusandae aspernatur,
-                        debitis eos provident neque officia voluptatibus minus in fugiat nobis ipsa laboriosam qui iste
-                        soluta, earum vero voluptate.</p>
+        <section id="clients" class="clients section-offset">
+            <div class="container">
+                <h2 class="section-title clients-title">Clients</h2>
+                <ul class="list-reset clients-list">
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae recusandae aspernatur,
+                            debitis eos provident neque officia voluptatibus minus in fugiat nobis ipsa laboriosam qui
+                            iste
+                            soluta, earum vero voluptate.</p>
                         <div class="clients-user">
                             <div class="clients-avatar">
                                 <img src="img/client-1.jpg" alt="John Armstrong">
@@ -210,12 +215,13 @@
                             <div class="clients-name">John Armstrong</div>
                             <span class="clients-post">Customer</span>
                         </div>
-                </li>
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae recusandae aspernatur,
-                        debitis eos provident neque officia voluptatibus minus in fugiat nobis ipsa laboriosam qui iste
-                        soluta, earum vero voluptate.</p>
+                    </li>
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae recusandae aspernatur,
+                            debitis eos provident neque officia voluptatibus minus in fugiat nobis ipsa laboriosam qui
+                            iste
+                            soluta, earum vero voluptate.</p>
                         <div class="clients-user">
                             <div class="clients-avatar">
                                 <img src="img/client-2.jpg" alt="Elizabeth Martin">
@@ -223,12 +229,13 @@
                             <div class="clients-name">Elizabeth Martin</div>
                             <span class="clients-post">Customer</span>
                         </div>
-                </li>
-                <li class="clients-item">
-                    <p class="clients-item-descr">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae recusandae aspernatur,
-                        debitis eos provident neque officia voluptatibus minus in fugiat nobis ipsa laboriosam qui iste
-                        soluta, earum vero voluptate.</p>
+                    </li>
+                    <li class="clients-item">
+                        <p class="clients-item-descr">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae recusandae aspernatur,
+                            debitis eos provident neque officia voluptatibus minus in fugiat nobis ipsa laboriosam qui
+                            iste
+                            soluta, earum vero voluptate.</p>
                         <div class="clients-user">
                             <div class="clients-avatar">
                                 <img src="img/client-3.jpg" alt="Robin Soutby">
@@ -236,17 +243,18 @@
                             <div class="clients-name">Robin Soutby</div>
                             <span class="clients-post">Customer</span>
                         </div>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
 
         </section>
 
 
-        <section id="contacts" class="contacts">
+        <section id="contacts section-offset" class="contacts">
             <div class="container">
                 <h2 class="section-title contacts-title">Contacts</h2>
                 <address class="contacts-addres">
-                    <ul class="contacts-list">
+                    <ul class="list-reset contacts-list">
                         <li class="contacts-item">
                             <strong class="contacts-item-caption">
                                 Visit Us
